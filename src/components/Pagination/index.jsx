@@ -34,8 +34,8 @@ const Pagination = (props) => {
 
     if (totalPages > 5) {
       if (currentPage >= 5) {
-        const newEnd = currentPage + 2; // Adjust end range dynamically (2 pages after current)
-        start = currentPage - 2; // Adjust start range dynamically (2 pages before current)
+        const newEnd = currentPage + 1; // Adjust end range dynamically (2 pages after current)
+        start = currentPage - 1; // Adjust start range dynamically (2 pages before current)
         ifDots = true;
 
         if (newEnd <= totalPages) {
