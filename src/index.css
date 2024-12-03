@@ -1,0 +1,15 @@
+html {
+  --primary-button: #007bff;
+  --white-color: #fff;
+
+  --table-border: #e0e0e0;
+  --table-white-background: #f2f2f2;
+  --table-hover-background: #ddd;
+
+  --button-hover: #e8e8e8;
+  --button-background: #f8f8f8;
+  --button-disabled: #999;
+
+  --shimmer-background-start: #f0f0f0;
+  --shimmer-background-middle: #e0e0e0;
+}

@@ -1,0 +1,31 @@
+.styled-table {
+  width: 80%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin: 20px auto;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid var(--table-border);
+  padding: 10px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: var(--primary-button);
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: var(--table-white-background);
+}
+
+.styled-table tr:hover {
+  background-color: var(--table-hover-background);
+}
+
+.styled-table td {
+  font-size: 14px;
+}
