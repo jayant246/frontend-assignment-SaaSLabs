@@ -1,5 +1,8 @@
 # Frontend Assignment
 
+## Commands and Requirements
+Use Node version >= 18+
+Start: npm run dev
 
 ## Assignment
 
