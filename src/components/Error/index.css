@@ -1,0 +1,24 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.error-container button {
+  background-color: var(--primary-button);
+  color: var(--white-color);
+  border: 1px solid var(--primary-button);
+  font-family: var(--font-family);
+  border-radius: 6px;
+  width: 100px;
+  padding: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.error-container p {
+  font-family: var(--font-family);
+  font-size: 18px;
+}

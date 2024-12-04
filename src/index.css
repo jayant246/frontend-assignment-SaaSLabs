@@ -12,4 +12,6 @@ html {
 
   --shimmer-background-start: #f0f0f0;
   --shimmer-background-middle: #e0e0e0;
+
+  --font-family: sans-serif;
 }

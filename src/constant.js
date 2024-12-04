@@ -3,8 +3,13 @@ export const PROJECTS_URL =
 
 export const FETCH_TIMEOUT = 10000;
 
-export const TABLE_HEADERS = {
-  COL1: "S.No.",
-  COL2: "Percentage funded",
-  COL3: "Amount pledged",
+export const TABLE_KEYS = {
+  "S.No.": "s.no",
+  "Percentage funded": "percentage.funded",
+  "Amount pledged": "amt.pledged",
+};
+
+export const ERROR_MSG = {
+  HEADING: "Unable to fetch data. Please try again later.",
+  CTA: "Refresh",
 };
